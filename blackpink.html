@@ -7,6 +7,7 @@
         background-image:url(background/miku1.png);
         background-size:cover;
         background-attachment:fixed;
+        background-position:center center;
       }
       p{
         font-size:25px;
@@ -22,16 +23,6 @@
 
       div.gallery:hover {
         border: 1px solid #777;
-      }
-
-      div.gallery img {
-        width: auto;
-        height: auto;
-      }
-
-      div.desc {
-        padding: 0px;
-        text-align: center;
       }
     </style>
   </head>
@@ -61,13 +52,13 @@
 
     <div class="gallery">
       <a target="_blank" href="img/bp2.jpg">
-        <img src="img/bp2.jpg">
+        <img src="img/bp2.jpg" style="height:100%; width:100%; object-fit:contain">
       </a>
     </div>
 
     <div class="gallery">
       <a target="_blank" href="img/bp1.png">
-        <img src="img/bp1.png">
+        <img src="img/bp1.png" style="height:100%; width:100%; object-fit:contain">
       </a>
     </div>
   </body>
