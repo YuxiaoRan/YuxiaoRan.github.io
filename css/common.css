@@ -9,3 +9,15 @@
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.h3_text {
+    font-weight: 600;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h4_text {
+    font-weight: 500;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
